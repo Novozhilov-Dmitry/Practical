@@ -1,6 +1,32 @@
-.qwe1 {
-  width: 1000px;
-  height: 1000px;
-  margin-left: 100px;
-  background-image: url(/img/61127627883dbb0802b613e3_Hero\ Background\ 1.svg);
+.header {
+  display: inline-flex;
+  background-color: white;
+  margin-top: 10px;
+}
+.headerlogo {
+  display: inline;
+  margin-left: 136px;
+  margin-right: 693px;
+}
+.logoimg {
+  margin-right: 7px;
+}
+.logoname {
+  max-width: 58px;
+  max-height: 15px;
+  margin-top: 18px;
+}
+.navmenu {
+  margin-top: 15px;
+  display: flex;
+  justify-content: end;
+}
+.navitem {
+  margin-right: 30px;
+}
+.headertitle {
+}
+.quote {
+}
+.arrow {
 }
