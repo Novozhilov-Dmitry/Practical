@@ -1,0 +1,90 @@
+.footer {
+  background-color: #292c32;
+  height: 563px;
+}
+.footercenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerlogo {
+  margin-top: 100px;
+}
+.footercolumns {
+  display: flex;
+  flex-flow: column;
+  flex-grow: 1;
+  margin-left: 136px;
+}
+.footercolumns ul li {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.footerrow {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  margin-top: 75px;
+  flex-grow: 1;
+}
+.footerlowpart {
+  display: flex;
+  justify-content: end;
+  margin-top: 27px;
+}
+.footercopyright {
+  color: white;
+  margin-right: 620px;
+  margin-left: 106px;
+}
+.footericons {
+  margin-right: 80px;
+}
+.iconitem {
+  margin-right: 20px;
+}
+.footersubscribe {
+  color: white;
+  width: 450px;
+  height: 45px;
+}
+.footeremail {
+  width: 458px;
+  height: 53px;
+  border-radius: 8px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.emailbutton {
+  margin-left: 320px;
+  margin-right: 20px;
+  background: #3a4443;
+  border: #3a4443;
+  border-radius: 10px;
+  width: 73px;
+  height: 39px;
+  color: white;
+}
+.emailtext {
+  margin-left: 34px;
+}
+ul li:first-child {
+  color: #ff8a63;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+li {
+  list-style-type: none;
+  margin-top: 9px;
+}
+.footerlastcolumn {
+  margin-right: 144px;
+  margin-left: 130px;
+}
