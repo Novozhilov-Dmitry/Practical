@@ -1,12 +1,16 @@
 .header {
-  display: inline-flex;
+  display: flex;
+  flex-flow: row nowrap;
   background-color: white;
   margin-top: 10px;
+  justify-content: flex-start;
+  align-items: center;
 }
+
 .headerlogo {
   display: inline;
   margin-left: 136px;
-  margin-right: 693px;
+  margin-right: 683px;
 }
 .logoimg {
   margin-right: 7px;
@@ -15,18 +19,68 @@
   max-width: 58px;
   max-height: 15px;
   margin-top: 18px;
+
 }
 .navmenu {
-  margin-top: 15px;
   display: flex;
   justify-content: end;
+  margin-right: 146px;
+  margin-top: 15px;
+  flex-grow: 1;
 }
-.navitem {
-  margin-right: 30px;
+.navmenu a{
+  margin-right: 20px;
 }
-.headertitle {
+.navmenu a:last-child{
+  margin-right: 0px;
+
 }
-.quote {
+.main{
+  background: url(/Practical/img/backgroundimg.png);
+  max-width: 1440px;
+  height: 720px;
 }
-.arrow {
+.headermain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 100%;
+  flex-flow: column;
+
+}
+.logomain{
+  margin-top: 245px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.logologo{
+  width: 55px;
+}
+.namemain{
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.headerquote{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+  max-width: 525px;
+  color: #45525B;
+}
+
+.arrowheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  border-color: #3A4443;
+  border-radius: 100%;
+  width: 64px;
+  height: 64px;
+  margin-top: 149px;
 }
